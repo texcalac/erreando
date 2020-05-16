@@ -32,7 +32,7 @@
 @include breakpoint(small) {
   .highlight {
     padding: 25px;
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
@@ -310,12 +310,6 @@
 
 .highlight .mo {
   color: #099;
-}
-
-// Literal.Number.Oct
-
-.highlight .r {
-  font-size: 12px;
 }
 
 // Literal.String.Backtick
