@@ -1,20 +1,50 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>erreando</title>
+    <description></description>
+    <link>https://texcalac.github.io/erreando/</link>
+    <atom:link href="https://texcalac.github.io/erreando//erreando/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>COVID-19 en Zonas Metropolitanas de México</title>
+        <description>Variación diaria de la tasa por cien mil habitantes de casos de COVID-19 en Zonas Metropolitanas de México de más de 10 millones de habitantes.</description>
+        <pubDate>Sat, 16 May 2020 00:00:00 -0500</pubDate>
+        <link>https://texcalac.github.io/erreando//erreando/posts/plot-02</link>
+        <guid isPermaLink="true">https://texcalac.github.io/erreando//erreando/posts/plot-02</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Casos de COVID-19 en Municipios de México</title>
+        <description>Gráfico con datos de la semana del 07 al 11 de mayo, en seguimiento al hashtag #30díasdegráficos de Twiter</description>
+        <pubDate>Sat, 23 Dec 2017 00:00:00 -0600</pubDate>
+        <link>https://texcalac.github.io/erreando//erreando/posts/plot-01</link>
+        <guid isPermaLink="true">https://texcalac.github.io/erreando//erreando/posts/plot-01</guid>
+      </item>
+    
+      <item>
+        <title>Introducing chalk</title>
+        <description>Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.</description>
+        <pubDate>Sat, 23 Dec 2017 00:00:00 -0600</pubDate>
+        <link>https://texcalac.github.io/erreando//erreando/posts/introducing-chalk</link>
+        <guid isPermaLink="true">https://texcalac.github.io/erreando//erreando/posts/introducing-chalk</guid>
+      </item>
+    
+      <item>
+        <title>How to configure Chalk</title>
+        <description>Learn more about the config file for Chalk and how to set it up properly.</description>
+        <pubDate>Fri, 22 Dec 2017 00:00:00 -0600</pubDate>
+        <link>https://texcalac.github.io/erreando//erreando/posts/configuring-chalk</link>
+        <guid isPermaLink="true">https://texcalac.github.io/erreando//erreando/posts/configuring-chalk</guid>
+      </item>
+    
+      <item>
+        <title>Chalk sample post with all elements</title>
+        <description>Have a look at all the predesigned elements you can use in Chalk.</description>
+        <pubDate>Thu, 21 Dec 2017 00:00:00 -0600</pubDate>
+        <link>https://texcalac.github.io/erreando//erreando/posts/chalk-sample-post-with-all-elements</link>
+        <guid isPermaLink="true">https://texcalac.github.io/erreando//erreando/posts/chalk-sample-post-with-all-elements</guid>
+      </item>
+    
   </channel>
 </rss>

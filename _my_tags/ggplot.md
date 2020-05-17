@@ -1,4 +1,0 @@
----
-slug: ggplot
-name: ggplot
----
